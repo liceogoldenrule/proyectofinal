@@ -1,0 +1,50 @@
+body{
+    background-color: darkorchid;
+    background-image: url("https://mk0criptonoticijjgfa.kinstacdn.com/wp-content/uploads/2020/03/BC_Logo_.png");
+    background-repeat:no-repeat;
+    background-position:top right;
+    background-size: 5%;
+    background-attachment: fixed;
+   
+    
+}
+.cabeza{
+    
+}
+.ciencias{
+    border-style:solid;
+    border-color: darkseagreen rgb(255, 251, 0) violet;
+    border-width: 20px 5px 4px 1px;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 80px;/*margen externa*/
+    margin-bottom: 200px;
+    padding-top: 20px;/*margen interna*/
+    padding-left: 80px;
+    padding-right: 5px;
+    padding-bottom: 60px;
+    outline-style: double;/*borde externo*/
+    outline-color:snow;
+    outline-width: 20px;
+    outline-offset: 20px;
+}
+table{
+    border: coral;
+    border-style:outset;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+th, td{
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: rgb(255, 174, 0);
+}
+th{
+    background-color: darkkhaki;
+    color: darkslateblue;
+    font-size: 22px;
+}
